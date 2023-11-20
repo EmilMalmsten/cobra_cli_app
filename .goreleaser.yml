@@ -9,7 +9,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -s -w -X github.com/emilmalmsten/cobra_cli_app/cmd.GoBlueprintVersion={{.Version}}
+      - -s -w -X cmd.GoBlueprintVersion={{.Version}}
 
 release:
   prerelease: auto
