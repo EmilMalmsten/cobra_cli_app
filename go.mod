@@ -1,4 +1,4 @@
-module github.com/emilmalmsten/cobra_cli_app
+module github.com/limesten/cobra_cli_app
 
 go 1.21.1
 
