@@ -9,7 +9,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -s -w -X github.com/limesten/cobra_cli_app/cmd.GoBlueprintVersion={{.Date}}
+      - -s -w -X cmd.GoBlueprintVersion={{.Version}}
 
 release:
   prerelease: auto
