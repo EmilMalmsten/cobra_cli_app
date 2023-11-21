@@ -9,9 +9,13 @@ import (
 	"github.com/limesten/cobra_cli_app/cmd"
 )
 
-var GoBlueprintVersion string
+var (
+	version = "dev"
+	commit  = "none"
+	date    = "unknown"
+)
 
 func main() {
+	fmt.Printf("version is: %s", version)
 	cmd.Execute()
-	fmt.Printf("version iz: %s", GoBlueprintVersion)
 }
