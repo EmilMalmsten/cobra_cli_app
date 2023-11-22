@@ -1,1 +1,1 @@
-{"project_name":"cobra_cli_app","tag":"v0.8.5","previous_tag":"v0.8.4","version":"0.8.5","commit":"f7d7187db20726981ac8e594ed0a6e42866089de","date":"2023-11-21T19:14:53.788028+07:00","runtime":{"goos":"darwin","goarch":"arm64"}}
+{"project_name":"cobra_cli_app","tag":"v0.8.6","previous_tag":"v0.8.5","version":"0.8.6","commit":"0e8db836584b5f22c97d29c2e9ce4b3a40123b67","date":"2023-11-22T12:25:34.420023+07:00","runtime":{"goos":"darwin","goarch":"arm64"}}
