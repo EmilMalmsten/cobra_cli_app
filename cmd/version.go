@@ -7,7 +7,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// GoBlueprintVersion is the version of the cli to be overwritten by goreleaser in the CI run with the version of the release in github
 var GoBlueprintVersion string
 
 func getGoBlueprintVersion() string {
